@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Explora Tours El Salvador</title>
+    <link hre="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="agen.css">
+</head>
+<body>
+
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Explora Tours SV</a>
+            <div class="navbar-nav d-flex flex-row gap-3">
+                <a class="nav-link" href="#tours">Tours</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Bienvenidos </h1>
+        <p>Agencia de viajes para ir a la playa y volcanes.</p>
+    </nav> </header>
+
+    <div id="tours" class="container my-4">
+        <h2 class="text-center mb-3">Nuestros Paquetes Disponibles</h2>
+        <div class="row">
+            <div class="col-md-6 border p-3">
+                <h3>playa  e tuco </h3>
+                <p>Viaje ideal para ir a surfear, ver el atardecer y pasarla bien.</p>
+                <p><b>Precio:</b> 35 dolares por poorsona </p>
+            </div>
+            <div class="col-md-6 border p-3">
+                <h3>Volcán de Santa Ana</h3>
+                <p>Caminata guiada para subir al volcán y ver la laguna verde.</p>
+                <p><b>Precio:</b> $40.00 por persona</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contacto" class="bg-light py-4">
+        <div class="container" style="max-width: 400px;">
+            <h2 class="text-center">Contacto</h2>
+            <form id="formContacto">
+                <div class="mb-2">
+                    <label>Nombre Completo:</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="mb-2">
+                    <label>Correo Electrónico:</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="mb-2">
+                    <label>¿Qué tour te interesa?</label>
+                    <textarea class="form-control" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success w-100">Enviar Datos</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="bg-secondary text-white text-center py-2">
+        <p class="m-0">Derechos reservados - Explora Tours El Salvador 2026</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="age.js"></script>
+</body>
+</html>
